@@ -12,6 +12,7 @@ class TokutenApp extends StatelessWidget {
         GlobalMaterialLocalizations.delegate,
         GlobalWidgetsLocalizations.delegate,
       ],
+      debugShowCheckedModeBanner: false,
       supportedLocales: [Locale('ja', 'JP')],
       title: '得点差計算機',
       theme: ThemeData.light(),
